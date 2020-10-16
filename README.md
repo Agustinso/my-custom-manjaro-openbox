@@ -18,6 +18,7 @@ sudo localectl set-x11-keymap es es
 
 ## 4. Instalar tema Openbox
 
+https://github.com/edisile/walbox
 ```
 git clone https://github.com/edisile/walbox.git
 cd walbox
@@ -30,3 +31,27 @@ picom -i 1 -e 1 --active-opacity 1 &
 polybar example &
 
 ```
+
+
+
+
+
+
+
+# links
+https://github.com/naueramant/lightdm-webkit-sequoia
+
+https://aur.archlinux.org/packages/openbox-themes/
+
+https://wiki.archlinux.org/index.php/Openbox_(Espa%C3%B1ol)
+
+https://github.com/polybar/polybar/wiki
+
+https://www.opencode.net/ju1464/Teja
+
+https://github.com/edisile/walbox
+
+https://wiki.archlinux.org/index.php/File_manager_functionality
+
+https://wiki.archlinux.org/index.php/Dunst
+
