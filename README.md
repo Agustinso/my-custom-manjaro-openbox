@@ -10,9 +10,11 @@ Set seat in lightdm to `lightdm-webkit2-greeter`
 
 ## 3. Configurar sistema
 
+```
 sudo systemctl enable --now sshd
 sudo systemctl enable lightdm
 sudo localectl set-x11-keymap es es
+```
 
 ## 4. Instalar tema Openbox
 
