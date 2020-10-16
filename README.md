@@ -32,7 +32,12 @@ polybar example &
 
 ```
 
+# .zshrc
 
+```
+(cat ~/.cache/wal/sequences &)
+. "~/.cache/wal/colors.sh"
+```
 
 
 
