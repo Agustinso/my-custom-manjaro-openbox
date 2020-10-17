@@ -35,6 +35,9 @@ ln -s $OMF_PATH/themes/pure/conf.d/pure.fish ~/.config/fish/conf.d/pure.fish
 ```
 picom -i 1 -e 1 --active-opacity 1 &
 polybar example &
+wal -R -n &
+nitrogen --set-zoom-fill img/bg.jpg &
+
 
 ```
 
