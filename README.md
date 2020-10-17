@@ -1,6 +1,6 @@
 # Primera CLI
 ## 1. Instalar paquetes base 
-`yay -Sy xf86-video-intel lib32-mesa xorg lightdm xf86-input-synaptics nushell openssh openbox pcmanfm udisks2 samba gvfs-smb manjaro-settings-samba gvfs obconf obkey engrampa nitrogen rofi obmenu3 python2 python2-pip python python-pip menumaker alsa pulseaudio pavucontrol ttf-cascadia-code code alsa-tools python-pywal xsel xsettingsd lxappearance scrot viewnior compton git xclip flattr gmrun lxrandr dunst termite speedtest-cli lxappearancw-obconf gotop tty-clock min firefox polybar ttf-unifont octave evince oblogout lightdm-webkit-theme-sequoia-git papirus-icon-theme ttf-hack fish tree`
+`yay -Sy xf86-video-intel lib32-mesa xorg lightdm xf86-input-synaptics nushell openssh openbox pcmanfm udisks2 samba gvfs-smb manjaro-settings-samba gvfs obconf obkey engrampa nitrogen rofi obmenu3 python2 python2-pip python python-pip menumaker alsa pulseaudio pavucontrol ttf-cascadia-code code alsa-tools python-pywal xsel xsettingsd lxappearance scrot viewnior compton git xclip flattr gmrun lxrandr dunst termite speedtest-cli lxappearancw-obconf gotop tty-clock min firefox polybar ttf-unifont octave evince oblogout lightdm-webkit-theme-sequoia-git papirus-icon-theme ttf-hack fish tree htop`
 
 ## 2. Configurar greeter
 https://github.com/naueramant/lightdm-webkit-sequoia
