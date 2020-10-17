@@ -1,6 +1,6 @@
 # Primera CLI
 ## 1. Instalar paquetes base 
-`yay -Sy xf86-video-intel lib32-mesa xorg lightdm xf86-input-synaptics nushell openssh openbox pcmanfm udisks2 samba gvfs-smb manjaro-settings-samba gvfs obconf obkey engrampa nitrogen rofi obmenu3 python2 python2-pip python python-pip menumaker alsa pulseaudio pavucontrol ttf-cascadia-code code alsa-tools python-pywal xsel xsettingsd lxappearance scrot viewnior compton git xclip flattr gmrun lxrandr dunst termite speedtest-cli lxappearancw-obconf gotop tty-clock min firefox polybar ttf-unifont octave evince oblogout lightdm-webkit-theme-sequoia-git papirus-icon-theme ttf-hack fish`
+`yay -Sy xf86-video-intel lib32-mesa xorg lightdm xf86-input-synaptics nushell openssh openbox pcmanfm udisks2 samba gvfs-smb manjaro-settings-samba gvfs obconf obkey engrampa nitrogen rofi obmenu3 python2 python2-pip python python-pip menumaker alsa pulseaudio pavucontrol ttf-cascadia-code code alsa-tools python-pywal xsel xsettingsd lxappearance scrot viewnior compton git xclip flattr gmrun lxrandr dunst termite speedtest-cli lxappearancw-obconf gotop tty-clock min firefox polybar ttf-unifont octave evince oblogout lightdm-webkit-theme-sequoia-git papirus-icon-theme ttf-hack fish tree`
 
 ## 2. Configurar greeter
 https://github.com/naueramant/lightdm-webkit-sequoia
@@ -16,13 +16,19 @@ sudo systemctl enable lightdm
 sudo localectl set-x11-keymap es es
 ```
 
-## 4. Instalar tema Openbox
+## 4. Instalar temas
 
 https://github.com/edisile/walbox
 ```
 git clone https://github.com/edisile/walbox.git
 cd walbox
 ./install.sh
+
+chsh -s /usr/bin/fish agustin
+curl -L https://get.oh-my.fish | fish
+
+omf install pure
+ln -s $OMF_PATH/themes/pure/conf.d/pure.fish ~/.config/fish/conf.d/pure.fish
 ```
 
 # autostart
