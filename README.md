@@ -40,6 +40,7 @@ polybar example &
 wal -R -n &
 nitrogen --set-zoom-fill img/bg.jpg &
 quicktile -d
+xsettingsd &
 
 ```
 
@@ -50,7 +51,22 @@ quicktile -d
 . "~/.cache/wal/colors.sh"
 ```
 
+# COnfg
+```
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
+bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
+
+# music control
+bindsym XF86AudioNext exec mpc next
+bindsym XF86AudioPrev exec mpc prev
+bindsym XF86AudioPlay exec mpc toggle
+bindsym XF86AudioStop exec mpc stop
+
+
+```
 
 
 
