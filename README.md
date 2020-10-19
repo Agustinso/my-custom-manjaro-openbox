@@ -31,6 +31,9 @@ omf install pure
 ln -s $OMF_PATH/themes/pure/conf.d/pure.fish ~/.config/fish/conf.d/pure.fish
 
 quicktile
+
+mkdir ~/.config/rofi
+echo '@import "~/.cache/wal/colors-rofi-dark.rasi"' >> ~/.config/rofi/rofi.config
 ```
 
 # autostart
@@ -68,6 +71,7 @@ bindsym XF86AudioStop exec mpc stop
 
 ```
 
+https://github.com/mateosss/matter#quick-start
 
 
 # links
