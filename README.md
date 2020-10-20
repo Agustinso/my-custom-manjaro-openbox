@@ -14,6 +14,13 @@ Set seat in lightdm to `lightdm-webkit2-greeter`
 sudo systemctl enable --now sshd
 sudo systemctl enable lightdm
 sudo localectl set-x11-keymap es es
+
+synclient PalmDetect=1
+synclient CircularScrolling=1
+synclient TapButton1=1
+synclient TapButton2=3
+synclient TapButton3=2
+
 ```
 
 ## 4. Instalar temas
