@@ -44,6 +44,10 @@ quicktile
 
 mkdir ~/.config/rofi
 echo '@import "~/.cache/wal/colors-rofi-dark.rasi"' >> ~/.config/rofi/rofi.config
+
+mkdir ~/.config/dunst
+sudo cp /usr/share/dunst/dunstrc /home/user/.config/dunst/dunstrc
+sudo chown user:user /home/user/.config/dunst/dunstrc
 ```
 
 # autostart
