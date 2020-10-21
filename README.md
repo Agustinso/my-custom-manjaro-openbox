@@ -22,6 +22,8 @@ synclient TapButton2=3
 synclient TapButton3=2
 
 sudo usermod -a -G tty agustin
+sudo usermod -a -G uucp agustin
+
 ```
 
 ## 4. Instalar temas
