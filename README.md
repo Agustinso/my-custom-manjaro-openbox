@@ -54,7 +54,7 @@ wal -R -n &
 nitrogen --set-zoom-fill img/bg.jpg &
 quicktile -d
 xsettingsd &
-
+pcmanfm -D &
 ```
 
 # .zshrc
