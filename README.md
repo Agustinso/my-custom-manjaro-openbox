@@ -1,29 +1,17 @@
 # Primera CLI
 ## 1. Instalar paquetes base 
-`yay -Sy xf86-video-intel lib32-mesa xorg xorg-xinit xf86-input-synaptics nushell openssh openbox pcmanfm udisks2 samba gvfs-smb manjaro-settings-samba gvfs obconf obkey engrampa nitrogen rofi obmenu3 python2 python2-pip python python-pip menumaker alsa pulseaudio pavucontrol ttf-cascadia-code code alsa-tools python-pywal xclip xsettingsd lxappearance scrot viewnior compton git xclip flattr gmrun lxrandr dunst termite speedtest-cli lxappearancw-obconf gotop tty-clock min firefox polybar ttf-unifont octave evince oblogout papirus-icon-theme ttf-hack fish tree htop jgmenu slop wmctrl quicktile bluez blueman pulseaudio-modules-bt gpointing-device-settings micro snapd awk qt5ct lxinput udiskie betterlockscreen`
+`yay -Sy xf86-video-intel lib32-mesa xorg xorg-xinit xf86-input-synaptics nushell openssh openbox pcmanfm udisks2 samba gvfs-smb manjaro-settings-samba gvfs obconf obkey engrampa nitrogen rofi obmenu3 python2 python2-pip python python-pip menumaker alsa pulseaudio pavucontrol ttf-cascadia-code code alsa-tools python-pywal xclip xsettingsd lxappearance scrot viewnior compton git xclip flattr gmrun lxrandr dunst termite speedtest-cli lxappearancw-obconf gotop tty-clock min firefox polybar ttf-unifont octave evince oblogout papirus-icon-theme ttf-hack fish tree htop jgmenu slop wmctrl quicktile bluez blueman pulseaudio-modules-bt gpointing-device-settings micro snapd awk qt5ct lxinput udiskie betterlockscreen xautolock thermald tlpui-git tlp`
 
-## 2. Configurar greeter
-https://github.com/naueramant/lightdm-webkit-sequoia
-
-"Enable the theme in your `/etc/lightdm/lightdm-webkit2-greeter.conf` Search for greeter section Set `webkit-theme` to `sequoia` "
-Set seat in lightdm to `lightdm-webkit2-greeter`
 
 ## 3. Configurar sistema
 
 ```
 sudo systemctl enable --now sshd
-sudo systemctl enable lightdm
 sudo localectl set-x11-keymap es es
-
-synclient PalmDetect=1
-synclient CircularScrolling=1
-synclient TapButton1=1
-synclient TapButton2=3
-synclient TapButton3=2
 
 sudo usermod -a -G tty agustin
 sudo usermod -a -G uucp agustin
-
+systemctl enable betterlockscreen@$USER
 ```
 
 ## 4. Instalar temas
