@@ -71,6 +71,10 @@ bindsym XF86AudioPrev exec mpc prev
 bindsym XF86AudioPlay exec mpc toggle
 bindsym XF86AudioStop exec mpc stop
 
+bindsym Print --release exec "scrot /tmp/screenshot-$(date +%F_%T).png -e 'xclip -selection c -t image/png < $f'"
+bindsym $mod+Print exec scrot ~/Pictures/scrot/%Y-%m-%d-%T-screenshot.png -e 'notify-send "Pantalla capturada en $f"'
+bindsym --release $mod+Shift+Print exec scrot /tmp/screenshot.png -s -e 'xclip -selection c -t image/png < $f'
+
 
 ```
 
